@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página del Alumno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Información del Alumno</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#la-chistera">La Chistera</a></li>
+        </ul>
+    </nav>
+
+    <section id="alumno-info">
+        <h2>Nombre: Juan Pérez</h2>
+        <p>Edad: 20 años</p>
+        <p>Carrera: Ingeniería Informática</p>
+        <p>Universidad: Ejemplo University</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <img src="imagen1.jpg" alt="Imagen 1">
+        <img src="imagen2.jpg" alt="Imagen 2">
+        <img src="imagen3.jpg" alt="Imagen 3">
+    </section>
+
+    <section id="video">
+        <h2>Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="la-chistera">
+        <h2>La Chistera</h2>
+        <p>Esta es la página de La Chistera. Aquí puedes encontrar más información divertida.</p>
+        <a href="chistera.html">Visita La Chistera</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Página del Alumno</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Chistera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>La Chistera</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Volver a la Página del Alumno</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Contenido de La Chistera</h2>
+        <p>Aquí puedes agregar más información sobre La Chistera.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 La Chistera</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header h1, nav ul {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
