@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página del Alumno</title>
+    <title>Hola</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -21,10 +21,10 @@
     </nav>
 
     <section id="alumno-info">
-        <h2>Nombre: Juan Pérez</h2>
-        <p>Edad: 20 años</p>
+        <h2>Nombre: Abel Hernandez</h2>
+        <p>Edad: 18 años</p>
         <p>Carrera: Ingeniería Informática</p>
-        <p>Universidad: Ejemplo University</p>
+        <p>Universidad: Mariano Galvez</p>
     </section>
 
     <section id="galeria">
@@ -50,6 +50,7 @@
     </footer>
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -79,6 +80,7 @@
     </footer>
 </body>
 </html>
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
